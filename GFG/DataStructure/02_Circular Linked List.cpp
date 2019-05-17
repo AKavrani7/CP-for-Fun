@@ -32,7 +32,7 @@ int main()
 CNode *makeNode(int value)
 {
     CNode *nd;
-    nd = new Node;
+    nd = new CNode;
     nd->data = value;
     nd->next = NULL;
     return nd;
